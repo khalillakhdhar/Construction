@@ -1,0 +1,7 @@
+C:\Users\khali\source\repos\Construction\Construction\bin\Debug\Construction.exe.config
+C:\Users\khali\source\repos\Construction\Construction\bin\Debug\Construction.exe
+C:\Users\khali\source\repos\Construction\Construction\bin\Debug\Construction.pdb
+C:\Users\khali\source\repos\Construction\Construction\obj\Debug\Construction.csprojAssemblyReference.cache
+C:\Users\khali\source\repos\Construction\Construction\obj\Debug\Construction.csproj.CoreCompileInputs.cache
+C:\Users\khali\source\repos\Construction\Construction\obj\Debug\Construction.exe
+C:\Users\khali\source\repos\Construction\Construction\obj\Debug\Construction.pdb
