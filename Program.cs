@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Construction.singleton;
 using Construction.factory;
+using Construction.AbstractFactory;
 namespace Construction
 {
     class Program
@@ -17,8 +18,8 @@ namespace Construction
             //Database.creatInstance("localhost");
             Test t = new Test();
             t.initialize();
-            new Client().Main();
-
+            //new Client().Main();
+            new User().main();
             // Console.WriteLine("le nom de l hebergeur est: " + Database.host);
 
             Console.ReadKey();
