@@ -11,6 +11,7 @@ namespace Construction
         public void initialize()
         {
             Database.creatInstance("localhost");
+            
         }
     }
 }

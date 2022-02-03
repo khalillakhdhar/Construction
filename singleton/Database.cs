@@ -8,7 +8,7 @@ namespace Construction.singleton
 {
     public class Database
     {
-        public static string host;
+        public  static string host;
 
         private Database()
         {

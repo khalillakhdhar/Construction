@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Construction.singleton;
+using Construction.factory;
 namespace Construction
 {
     class Program
@@ -16,8 +17,10 @@ namespace Construction
             //Database.creatInstance("localhost");
             Test t = new Test();
             t.initialize();
-            Console.WriteLine("le nom de l hebergeur est: " + Database.host);
-            
+            new Client().Main();
+
+            // Console.WriteLine("le nom de l hebergeur est: " + Database.host);
+
             Console.ReadKey();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
