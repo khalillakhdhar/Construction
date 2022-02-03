@@ -42,10 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\Authentification.cs" />
+    <Compile Include="abstractFactory\Authentification.cs" />
+    <Compile Include="builder\EnseignantInterface.cs" />
+    <Compile Include="builder\StudentInterface.cs" />
+    <Compile Include="builder\User.cs" />
     <Compile Include="factory\Creator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prototype\Laptop.cs" />
+    <Compile Include="prototype\Person.cs" />
+    <Compile Include="prototype\Personal.cs" />
     <Compile Include="singleton\Database.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
